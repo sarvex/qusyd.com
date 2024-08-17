@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@modular-forms/qwik':
         specifier: 0.26.1
-        version: 0.26.1(@builder.io/qwik-city@1.5.7(@types/node@20.14.12)(rollup@4.16.4))(@builder.io/qwik@1.8.0(@types/node@20.14.12))(typescript@5.4.5)
+        version: 0.26.1(@builder.io/qwik-city@1.5.7(@types/node@20.14.12)(rollup@4.16.4))(@builder.io/qwik@1.8.0(@types/node@20.14.12))(typescript@5.5.4)
       '@qwikest/icons':
         specifier: 0.0.13
         version: 0.0.13(@builder.io/qwik@1.8.0(@types/node@20.14.12))
@@ -97,8 +97,8 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
       undici:
-        specifier: 6.18.2
-        version: 6.18.2
+        specifier: 6.19.2
+        version: 6.19.2
       vercel:
         specifier: 34.2.7
         version: 34.2.7
@@ -5376,8 +5376,8 @@ packages:
     resolution: {integrity: sha512-cSb4bPFd5qgR7qr2jYAi0hlX9n5YKK2ONKkLFkxl+v/9BvC0sOpZjBHDBSXc5lWAf5ty9oZdRXytBIHzgUcerw==}
     engines: {node: '>=14.0'}
 
-  undici@6.18.2:
-    resolution: {integrity: sha512-o/MQLTwRm9IVhOqhZ0NQ9oXax1ygPjw6Vs+Vq/4QRjbOAC3B1GCHy7TYxxbExKlb7bzDRzt9vBWU6BDz0RFfYg==}
+  undici@6.19.2:
+    resolution: {integrity: sha512-JfjKqIauur3Q6biAtHJ564e3bWa8VvT+7cSiOJHFbX4Erv6CLGDpg8z+Fmg/1OI/47RA+GI2QZaF48SSaLvyBA==}
     engines: {node: '>=18.17'}
 
   unicode-canonical-property-names-ecmascript@2.0.0:
@@ -6548,7 +6548,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.18.2
+      undici: 6.19.2
       vfile: 6.0.1
       vite: 5.3.5(@types/node@20.14.12)
       vite-imagetools: 6.2.9(rollup@4.16.4)
@@ -6571,7 +6571,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.18.2
+      undici: 6.19.2
       vfile: 6.0.1
       vite: 5.3.5(@types/node@20.14.12)
       vite-imagetools: 6.2.9(rollup@4.16.4)
@@ -6991,12 +6991,12 @@ snapshots:
       '@types/react': 18.2.14
       react: 18.2.0
 
-  '@modular-forms/qwik@0.26.1(@builder.io/qwik-city@1.5.7(@types/node@20.14.12)(rollup@4.16.4))(@builder.io/qwik@1.8.0(@types/node@20.14.12))(typescript@5.4.5)':
+  '@modular-forms/qwik@0.26.1(@builder.io/qwik-city@1.5.7(@types/node@20.14.12)(rollup@4.16.4))(@builder.io/qwik@1.8.0(@types/node@20.14.12))(typescript@5.5.4)':
     dependencies:
       '@builder.io/qwik': 1.8.0(@types/node@20.14.12)
       '@builder.io/qwik-city': 1.5.7(@types/node@20.14.12)(rollup@4.16.4)
       decode-formdata: 0.7.5
-      valibot: 0.37.0(typescript@5.4.5)
+      valibot: 0.37.0(typescript@5.5.4)
     transitivePeerDependencies:
       - typescript
 
@@ -12274,7 +12274,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.0.0
 
-  undici@6.18.2: {}
+  undici@6.19.2: {}
 
   unicode-canonical-property-names-ecmascript@2.0.0: {}
 
@@ -12464,9 +12464,9 @@ snapshots:
 
   v8-compile-cache-lib@3.0.1: {}
 
-  valibot@0.37.0(typescript@5.4.5):
+  valibot@0.37.0(typescript@5.5.4):
     optionalDependencies:
-      typescript: 5.4.5
+      typescript: 5.5.4
 
   validate-npm-package-license@3.0.4:
     dependencies:
