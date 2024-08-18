@@ -97,8 +97,8 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
       undici:
-        specifier: 6.19.2
-        version: 6.19.2
+        specifier: 6.19.7
+        version: 6.19.7
       vercel:
         specifier: 34.4.0
         version: 34.4.0
@@ -5376,8 +5376,8 @@ packages:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
 
-  undici@6.19.2:
-    resolution: {integrity: sha512-JfjKqIauur3Q6biAtHJ564e3bWa8VvT+7cSiOJHFbX4Erv6CLGDpg8z+Fmg/1OI/47RA+GI2QZaF48SSaLvyBA==}
+  undici@6.19.7:
+    resolution: {integrity: sha512-HR3W/bMGPSr90i8AAp2C4DM3wChFdJPLrWYpIS++LxS8K+W535qftjt+4MyjNYHeWabMj1nvtmLIi7l++iq91A==}
     engines: {node: '>=18.17'}
 
   unicode-canonical-property-names-ecmascript@2.0.0:
@@ -6548,7 +6548,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.19.2
+      undici: 6.19.7
       vfile: 6.0.1
       vite: 5.3.5(@types/node@20.15.0)
       vite-imagetools: 6.2.9(rollup@4.16.4)
@@ -6571,7 +6571,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.2.0
-      undici: 6.19.2
+      undici: 6.19.7
       vfile: 6.0.1
       vite: 5.3.5(@types/node@20.15.0)
       vite-imagetools: 6.2.9(rollup@4.16.4)
@@ -12276,7 +12276,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.0.0
 
-  undici@6.19.2: {}
+  undici@6.19.7: {}
 
   unicode-canonical-property-names-ecmascript@2.0.0: {}
 
