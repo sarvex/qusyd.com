@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@modular-forms/qwik':
-        specifier: 0.26.1
-        version: 0.26.1(@builder.io/qwik-city@1.8.0(@types/node@20.16.1)(rollup@4.16.4))(@builder.io/qwik@1.8.0(@types/node@20.16.1))(typescript@5.5.4)
+        specifier: 0.27.0
+        version: 0.27.0(@builder.io/qwik-city@1.8.0(@types/node@20.16.1)(rollup@4.16.4))(@builder.io/qwik@1.8.0(@types/node@20.16.1))(typescript@5.5.4)
       '@qwikest/icons':
         specifier: 0.0.13
         version: 0.0.13(@builder.io/qwik@1.8.0(@types/node@20.16.1))
@@ -1375,8 +1375,8 @@ packages:
       '@types/react': '>=16'
       react: '>=16'
 
-  '@modular-forms/qwik@0.26.1':
-    resolution: {integrity: sha512-8/ANrC719G09NAOrC6PYkNIhjfMDHaoYr0rm8KWvOUvISGUSV8uKz/T6111Wv9e8vHjIooqGVBtEL5ec+nHIZw==}
+  '@modular-forms/qwik@0.27.0':
+    resolution: {integrity: sha512-FbyXzxx1rMSHIRkoQ5MOu016BZkItHkk4ezkf67zFrAwlSZSA2ADOqAjeoheiYeVO26CGyPDetQh8v/AXYHDGA==}
     peerDependencies:
       '@builder.io/qwik': ^1.4.0
       '@builder.io/qwik-city': ^1.4.0
@@ -6652,7 +6652,7 @@ snapshots:
       '@types/react': 18.2.14
       react: 18.2.0
 
-  '@modular-forms/qwik@0.26.1(@builder.io/qwik-city@1.8.0(@types/node@20.16.1)(rollup@4.16.4))(@builder.io/qwik@1.8.0(@types/node@20.16.1))(typescript@5.5.4)':
+  '@modular-forms/qwik@0.27.0(@builder.io/qwik-city@1.8.0(@types/node@20.16.1)(rollup@4.16.4))(@builder.io/qwik@1.8.0(@types/node@20.16.1))(typescript@5.5.4)':
     dependencies:
       '@builder.io/qwik': 1.8.0(@types/node@20.16.1)
       '@builder.io/qwik-city': 1.8.0(@types/node@20.16.1)(rollup@4.16.4)
