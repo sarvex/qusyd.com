@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@modular-forms/qwik':
         specifier: 0.29.1
-        version: 0.29.1(@builder.io/qwik-city@1.8.0(@types/node@20.16.1)(rollup@4.37.0))(@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1)))(typescript@5.5.4)
+        version: 0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.37.0)(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1)))(@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1)))(typescript@5.5.4)
       '@qwikest/icons':
         specifier: 0.0.13
         version: 0.0.13(@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1)))
@@ -28,8 +28,8 @@ importers:
         specifier: 1.12.1
         version: 1.12.1(vite@5.4.12(@types/node@20.16.1))
       '@builder.io/qwik-city':
-        specifier: 1.8.0
-        version: 1.8.0(@types/node@20.16.1)(rollup@4.37.0)
+        specifier: 1.12.1
+        version: 1.12.1(rollup@4.37.0)(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1))
       '@playwright/test':
         specifier: 1.51.1
         version: 1.51.1
@@ -89,7 +89,7 @@ importers:
         version: 8.2.9(@babel/preset-env@7.24.6(@babel/core@7.24.6))
       storybook-framework-qwik:
         specifier: 0.4.1
-        version: 0.4.1(@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1)))(@types/node@20.16.1)(rollup@4.37.0)(storybook@8.2.9(@babel/preset-env@7.24.6(@babel/core@7.24.6)))(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1))
+        version: 0.4.1(@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1)))(rollup@4.37.0)(storybook@8.2.9(@babel/preset-env@7.24.6(@babel/core@7.24.6)))(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1))
       tailwindcss:
         specifier: 3.4.17
         version: 3.4.17(ts-node@10.9.1(@types/node@20.16.1)(typescript@5.5.4))
@@ -755,9 +755,11 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  '@builder.io/qwik-city@1.8.0':
-    resolution: {integrity: sha512-3WCyKFf8E5W2HlL/VtYneXsY/d7llNRUo3Bc/PonOgEUpNYM3i7ts9M3MSnkKYf7dLm648+MSeP/x2Ll01lz7Q==}
+  '@builder.io/qwik-city@1.12.1':
+    resolution: {integrity: sha512-YLW+33PZVoc4O30J99Fs3uNNpi7BszPzaITKoW66Sphju5Ptn6HDQkfnBu2sHFB0bh8hWLWatAjOM1HXg/C96Q==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
+    peerDependencies:
+      vite: ^5
 
   '@builder.io/qwik@1.12.1':
     resolution: {integrity: sha512-fL+GuzJ/fp9OwhegPkn2dZXp4RjWnY0mNhgg7OJDS2qxftLmuJHs4sSJZ9ayvLRBVUNVPVX92u+SodiO5GDsnQ==}
@@ -1659,9 +1661,6 @@ packages:
 
   '@types/estree-jsx@1.0.0':
     resolution: {integrity: sha512-3qvGd0z8F2ENTGr/GG1yViqfiKmRfrXVx5sJyHGFu3z7m5g5utCQtGp/g29JnjflhtQJBv1WDQukHiT58xPcYQ==}
-
-  '@types/estree@1.0.5':
-    resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -4955,8 +4954,8 @@ packages:
   vfile-message@4.0.2:
     resolution: {integrity: sha512-jRDZ1IMLttGj41KcZvlrYAaI3CfqpLpfpf+Mfig13viT6NKvRzWZ+lXz0Y5D60w6uJIBAOGq9mSHf0gktF0duw==}
 
-  vfile@6.0.1:
-    resolution: {integrity: sha512-1bYqc7pt6NIADBJ98UiG0Bn/CHIVOoZ/IyEkqIruLg0mE1BKzkOXY2D6CSqQIcKqgadppE5lrxgWXJmXd7zZJw==}
+  vfile@6.0.2:
+    resolution: {integrity: sha512-zND7NlS8rJYb/sPqkb13ZvbbUoExdbi4w3SfRrMq6R3FvnLQmmfpajJNITuuYm6AZ5uao9vy4BAos3EXBPf2rg==}
 
   vite-imagetools@7.0.4:
     resolution: {integrity: sha512-C9C7b2p/8/TCN2g26tE9haoer2i8K4x0v2RXUiHsIjiz221vQuKItCQ+VyiVCsUMPXfJC/tlZsmCZVBz5jh7uA==}
@@ -5922,28 +5921,22 @@ snapshots:
 
   '@builder.io/partytown@0.10.3': {}
 
-  '@builder.io/qwik-city@1.8.0(@types/node@20.16.1)(rollup@4.37.0)':
+  '@builder.io/qwik-city@1.12.1(rollup@4.37.0)(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1))':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.3.2
       undici: 6.21.2
-      vfile: 6.0.1
+      valibot: 1.0.0(typescript@5.5.4)
+      vfile: 6.0.2
       vite: 5.4.12(@types/node@20.16.1)
       vite-imagetools: 7.0.4(rollup@4.37.0)
       zod: 3.22.4
     transitivePeerDependencies:
-      - '@types/node'
-      - less
-      - lightningcss
       - rollup
-      - sass
-      - sass-embedded
-      - stylus
-      - sugarss
       - supports-color
-      - terser
+      - typescript
 
   '@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1))':
     dependencies:
@@ -6293,7 +6286,7 @@ snapshots:
 
   '@mdx-js/mdx@3.0.1':
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': 1.0.6
       '@types/estree-jsx': 1.0.0
       '@types/hast': 3.0.4
       '@types/mdx': 2.0.13
@@ -6315,7 +6308,7 @@ snapshots:
       unist-util-position-from-estree: 2.0.0
       unist-util-stringify-position: 4.0.0
       unist-util-visit: 5.0.0
-      vfile: 6.0.1
+      vfile: 6.0.2
     transitivePeerDependencies:
       - supports-color
 
@@ -6325,10 +6318,10 @@ snapshots:
       '@types/react': 18.2.14
       react: 18.2.0
 
-  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.8.0(@types/node@20.16.1)(rollup@4.37.0))(@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1)))(typescript@5.5.4)':
+  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.37.0)(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1)))(@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1)))(typescript@5.5.4)':
     dependencies:
       '@builder.io/qwik': 1.12.1(vite@5.4.12(@types/node@20.16.1))
-      '@builder.io/qwik-city': 1.8.0(@types/node@20.16.1)(rollup@4.37.0)
+      '@builder.io/qwik-city': 1.12.1(rollup@4.37.0)(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1))
       decode-formdata: 0.8.0
       valibot: 1.0.0(typescript@5.5.4)
     transitivePeerDependencies:
@@ -6823,8 +6816,6 @@ snapshots:
     dependencies:
       '@types/estree': 1.0.6
 
-  '@types/estree@1.0.5': {}
-
   '@types/estree@1.0.6': {}
 
   '@types/express-serve-static-core@4.17.35':
@@ -7242,10 +7233,6 @@ snapshots:
       negotiator: 0.6.3
 
   acorn-import-attributes@1.9.5(acorn@8.11.3):
-    dependencies:
-      acorn: 8.11.3
-
-  acorn-jsx@5.3.2(acorn@8.11.3):
     dependencies:
       acorn: 8.11.3
 
@@ -7692,12 +7679,12 @@ snapshots:
   css-tree@2.2.1:
     dependencies:
       mdn-data: 2.0.28
-      source-map-js: 1.2.0
+      source-map-js: 1.2.1
 
   css-tree@2.3.1:
     dependencies:
       mdn-data: 2.0.30
-      source-map-js: 1.2.0
+      source-map-js: 1.2.1
 
   css-what@6.1.0: {}
 
@@ -9093,7 +9080,7 @@ snapshots:
       trim-lines: 3.0.1
       unist-util-position: 5.0.0
       unist-util-visit: 5.0.0
-      vfile: 6.0.1
+      vfile: 6.0.2
 
   mdast-util-to-markdown@2.1.0:
     dependencies:
@@ -9195,8 +9182,8 @@ snapshots:
 
   micromark-extension-mdxjs@3.0.0:
     dependencies:
-      acorn: 8.11.3
-      acorn-jsx: 5.3.2(acorn@8.11.3)
+      acorn: 8.14.1
+      acorn-jsx: 5.3.2(acorn@8.14.1)
       micromark-extension-mdx-expression: 3.0.0
       micromark-extension-mdx-jsx: 3.0.0
       micromark-extension-mdx-md: 2.0.0
@@ -9908,7 +9895,7 @@ snapshots:
       '@types/mdast': 4.0.4
       mdast-util-to-hast: 13.1.0
       unified: 11.0.4
-      vfile: 6.0.1
+      vfile: 6.0.2
 
   require-from-string@2.0.2: {}
 
@@ -10121,7 +10108,7 @@ snapshots:
 
   std-env@3.8.1: {}
 
-  storybook-framework-qwik@0.4.1(@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1)))(@types/node@20.16.1)(rollup@4.37.0)(storybook@8.2.9(@babel/preset-env@7.24.6(@babel/core@7.24.6)))(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1)):
+  storybook-framework-qwik@0.4.1(@builder.io/qwik@1.12.1(vite@5.4.12(@types/node@20.16.1)))(rollup@4.37.0)(storybook@8.2.9(@babel/preset-env@7.24.6(@babel/core@7.24.6)))(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1)):
     dependencies:
       '@builder.io/qwik': 1.12.1(vite@5.4.12(@types/node@20.16.1))
       '@storybook/builder-vite': 8.2.9(storybook@8.2.9(@babel/preset-env@7.24.6(@babel/core@7.24.6)))(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1))
@@ -10129,21 +10116,13 @@ snapshots:
       magic-string: 0.30.10
       react-docgen-typescript: 2.2.2(typescript@5.5.4)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.8.0(@types/node@20.16.1)(rollup@4.37.0)
+      '@builder.io/qwik-city': 1.12.1(rollup@4.37.0)(typescript@5.5.4)(vite@5.4.12(@types/node@20.16.1))
     transitivePeerDependencies:
       - '@preact/preset-vite'
-      - '@types/node'
       - encoding
-      - less
-      - lightningcss
       - rollup
-      - sass
-      - sass-embedded
       - storybook
-      - stylus
-      - sugarss
       - supports-color
-      - terser
       - typescript
       - vite
       - vite-plugin-glimmerx
@@ -10281,7 +10260,7 @@ snapshots:
       css-tree: 2.3.1
       css-what: 6.1.0
       csso: 5.0.5
-      picocolors: 1.0.1
+      picocolors: 1.1.1
 
   tailwindcss@3.4.17(ts-node@10.9.1(@types/node@20.16.1)(typescript@5.5.4)):
     dependencies:
@@ -10531,7 +10510,7 @@ snapshots:
       extend: 3.0.2
       is-plain-obj: 4.1.0
       trough: 2.1.0
-      vfile: 6.0.1
+      vfile: 6.0.2
 
   unique-string@2.0.0:
     dependencies:
@@ -10651,7 +10630,7 @@ snapshots:
       '@types/unist': 3.0.0
       unist-util-stringify-position: 4.0.0
 
-  vfile@6.0.1:
+  vfile@6.0.2:
     dependencies:
       '@types/unist': 3.0.0
       unist-util-stringify-position: 4.0.0
