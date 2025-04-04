@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@modular-forms/qwik':
         specifier: 0.29.1
-        version: 0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))(@builder.io/qwik@1.12.1(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))(typescript@5.8.2)
+        version: 0.29.1(@builder.io/qwik-city@1.13.0(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))(@builder.io/qwik@1.12.1(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))(typescript@5.8.2)
       '@qwikest/icons':
         specifier: 0.0.13
         version: 0.0.13(@builder.io/qwik@1.12.1(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))
@@ -28,8 +28,8 @@ importers:
         specifier: 1.12.1
         version: 1.12.1(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))
       '@builder.io/qwik-city':
-        specifier: 1.12.1
-        version: 1.12.1(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))
+        specifier: 1.13.0
+        version: 1.13.0(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))
       '@playwright/test':
         specifier: 1.51.1
         version: 1.51.1
@@ -180,8 +180,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  '@builder.io/qwik-city@1.12.1':
-    resolution: {integrity: sha512-YLW+33PZVoc4O30J99Fs3uNNpi7BszPzaITKoW66Sphju5Ptn6HDQkfnBu2sHFB0bh8hWLWatAjOM1HXg/C96Q==}
+  '@builder.io/qwik-city@1.13.0':
+    resolution: {integrity: sha512-CDo5/JBLyJkC8uWn/DO5SnhXzGPLr9ecbAprloQMwoDaYFh846DRXhD+dK1Sqoa84O40+dk3p5Zltf2SkXdV2w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       vite: ^5
@@ -891,15 +891,6 @@ packages:
     engines: {node: '>=15.0.0'}
     peerDependencies:
       '@builder.io/qwik': '>=1.0.0'
-
-  '@rollup/pluginutils@5.1.0':
-    resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
-    peerDependenciesMeta:
-      rollup:
-        optional: true
 
   '@rollup/pluginutils@5.1.4':
     resolution: {integrity: sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==}
@@ -3973,7 +3964,7 @@ snapshots:
 
   '@builder.io/partytown@0.10.3': {}
 
-  '@builder.io/qwik-city@1.12.1(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))':
+  '@builder.io/qwik-city@1.13.0(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
@@ -4413,7 +4404,7 @@ snapshots:
 
   '@mdx-js/mdx@3.0.1':
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
       '@types/estree-jsx': 1.0.0
       '@types/hast': 3.0.4
       '@types/mdx': 2.0.13
@@ -4445,10 +4436,10 @@ snapshots:
       '@types/react': 18.2.14
       react: 18.2.0
 
-  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.12.1(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))(@builder.io/qwik@1.12.1(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))(typescript@5.8.2)':
+  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.13.0(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))(@builder.io/qwik@1.12.1(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))(typescript@5.8.2)':
     dependencies:
       '@builder.io/qwik': 1.12.1(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))
-      '@builder.io/qwik-city': 1.12.1(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))
+      '@builder.io/qwik-city': 1.13.0(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))
       decode-formdata: 0.8.0
       valibot: 1.0.0(typescript@5.8.2)
     transitivePeerDependencies:
@@ -4478,14 +4469,6 @@ snapshots:
   '@qwikest/icons@0.0.13(@builder.io/qwik@1.12.1(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7)))':
     dependencies:
       '@builder.io/qwik': 1.12.1(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))
-
-  '@rollup/pluginutils@5.1.0(rollup@4.38.0)':
-    dependencies:
-      '@types/estree': 1.0.7
-      estree-walker: 2.0.2
-      picomatch: 2.3.1
-    optionalDependencies:
-      rollup: 4.38.0
 
   '@rollup/pluginutils@5.1.4(rollup@4.38.0)':
     dependencies:
@@ -4888,7 +4871,7 @@ snapshots:
 
   '@types/estree-jsx@1.0.0':
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
 
   '@types/estree@1.0.6': {}
 
@@ -6017,7 +6000,7 @@ snapshots:
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
 
   esutils@2.0.3: {}
 
@@ -6254,7 +6237,7 @@ snapshots:
 
   hast-util-to-estree@3.1.0:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
       '@types/estree-jsx': 1.0.0
       '@types/hast': 3.0.4
       comma-separated-tokens: 2.0.3
@@ -6275,7 +6258,7 @@ snapshots:
 
   hast-util-to-jsx-runtime@2.3.0:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
       '@types/hast': 3.0.4
       '@types/unist': 3.0.0
       comma-separated-tokens: 2.0.3
@@ -7115,7 +7098,7 @@ snapshots:
 
   periscopic@3.1.0:
     dependencies:
-      '@types/estree': 1.0.6
+      '@types/estree': 1.0.7
       estree-walker: 3.0.3
       is-reference: 3.0.1
 
@@ -7400,7 +7383,7 @@ snapshots:
       magic-string: 0.30.10
       react-docgen-typescript: 2.2.2(typescript@5.8.2)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.12.1(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))
+      '@builder.io/qwik-city': 1.13.0(rollup@4.38.0)(typescript@5.8.2)(vite@6.2.4(@types/node@22.14.0)(jiti@1.21.7))
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -7774,7 +7757,7 @@ snapshots:
 
   vite-imagetools@7.0.4(rollup@4.38.0):
     dependencies:
-      '@rollup/pluginutils': 5.1.0(rollup@4.38.0)
+      '@rollup/pluginutils': 5.1.4(rollup@4.38.0)
       imagetools-core: 7.0.1
       sharp: 0.33.5
     transitivePeerDependencies:
