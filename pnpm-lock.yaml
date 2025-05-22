@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@modular-forms/qwik':
         specifier: 0.29.1
-        version: 0.29.1(@builder.io/qwik-city@1.13.0(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7)))(@builder.io/qwik@1.13.0(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7)))(typescript@5.8.2)
+        version: 0.29.1(@builder.io/qwik-city@1.14.1(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7)))(@builder.io/qwik@1.13.0(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7)))(typescript@5.8.2)
       '@qwikest/icons':
         specifier: 0.0.13
         version: 0.0.13(@builder.io/qwik@1.13.0(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7)))
@@ -28,8 +28,8 @@ importers:
         specifier: 1.13.0
         version: 1.13.0(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))
       '@builder.io/qwik-city':
-        specifier: 1.13.0
-        version: 1.13.0(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))
+        specifier: 1.14.1
+        version: 1.14.1(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))
       '@playwright/test':
         specifier: 1.51.1
         version: 1.51.1
@@ -178,10 +178,11 @@ packages:
   '@builder.io/partytown@0.10.3':
     resolution: {integrity: sha512-N2SWA3c5vEad3rgdAFM3zMb6uc7aXqibkgAz4ijvYzycgQXJ4dE5oH6fGFMXSQWj6ayVlLT1/CmpflYUJHfmQg==}
     engines: {node: '>=18.0.0'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     hasBin: true
 
-  '@builder.io/qwik-city@1.13.0':
-    resolution: {integrity: sha512-CDo5/JBLyJkC8uWn/DO5SnhXzGPLr9ecbAprloQMwoDaYFh846DRXhD+dK1Sqoa84O40+dk3p5Zltf2SkXdV2w==}
+  '@builder.io/qwik-city@1.14.1':
+    resolution: {integrity: sha512-VsAvk7u2HyyTnL9GhpT+h10t2XAIlxtv6LFL3Xt9/1QZ6lMfGWMcMEAMuZB1Ib+D/oTfu7QRqZngRg3FsrIKyg==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     peerDependencies:
       vite: ^5
@@ -3084,6 +3085,7 @@ packages:
 
   path-match@1.2.4:
     resolution: {integrity: sha512-UWlehEdqu36jmh4h5CWJ7tARp1OEVKGHKm6+dg9qMq5RKUTV5WJrGgaZ3dN2m7WFAXDbjlHzvJvL/IUpy84Ktw==}
+    deprecated: This package is archived and no longer maintained. For support, visit https://github.com/expressjs/express/discussions
 
   path-scurry@1.10.1:
     resolution: {integrity: sha512-MkhCqzzBEpPvxxQ71Md0b1Kk51W01lrYvlMzSUaIzNsODdd7mqhiimSZlr+VegAz5Z6Vzt9Xg2ttE//XBhH3EQ==}
@@ -4110,7 +4112,7 @@ snapshots:
 
   '@builder.io/partytown@0.10.3': {}
 
-  '@builder.io/qwik-city@1.13.0(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))':
+  '@builder.io/qwik-city@1.14.1(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
@@ -4528,10 +4530,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.13.0(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7)))(@builder.io/qwik@1.13.0(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7)))(typescript@5.8.2)':
+  '@modular-forms/qwik@0.29.1(@builder.io/qwik-city@1.14.1(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7)))(@builder.io/qwik@1.13.0(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7)))(typescript@5.8.2)':
     dependencies:
       '@builder.io/qwik': 1.13.0(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))
-      '@builder.io/qwik-city': 1.13.0(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))
+      '@builder.io/qwik-city': 1.14.1(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))
       decode-formdata: 0.8.0
       valibot: 1.0.0(typescript@5.8.2)
     transitivePeerDependencies:
@@ -7766,7 +7768,7 @@ snapshots:
       magic-string: 0.30.10
       react-docgen-typescript: 2.2.2(typescript@5.8.2)
     optionalDependencies:
-      '@builder.io/qwik-city': 1.13.0(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))
+      '@builder.io/qwik-city': 1.14.1(rollup@4.40.1)(typescript@5.8.2)(vite@6.3.4(@types/node@22.14.0)(jiti@1.21.7))
     transitivePeerDependencies:
       - encoding
       - rollup
